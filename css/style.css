@@ -1,0 +1,31 @@
+.container1 {
+    position: relative;
+    font-family: Arial;
+    opacity: .8;
+
+}
+
+.text-block {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+    color: rgb(243, 198, 139);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer {
+    background: #d6a8ec;
+}
+
+.footer-days {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.navbar {
+    background: linear-gradient(to right, #ac06f9, #d6a8ec);
+}

@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <title>Document</title>
     <style>
-
         .container1 {
             position: relative;
             font-family: Arial;
@@ -26,19 +25,25 @@
             padding-left: 20px;
             padding-right: 20px;
         }
-        .footer{
+
+        .footer {
             background: #d6a8ec;
         }
-        .footer-days{
+
+        .footer-days {
             text-align: center;
             border: 1px solid black;
             border-radius: 10px;
+        }
+
+        .navbar {
+            background: linear-gradient(to right, #ac06f9, #d6a8ec);
         }
     </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light  sticky-top">
         <a class="navbar-brand" href="#">UI/UX</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,10 +55,13 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#attractions">Attractions</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#EventManegers">Event Managers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactus">Contact Us</a>
                 </li>
 
             </ul>
@@ -88,7 +96,7 @@
 
 
     <!-- Modal -->
-   
+
     <div class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog"
         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
@@ -193,7 +201,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary save" >Save changes</button>
+                    <button type="button" class="btn btn-primary save">Save changes</button>
                 </div>
             </div>
         </div>
@@ -202,111 +210,163 @@
         <div class="alert alert-success d-none" role="alert">
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
-              </button>
+            </button>
             <h4 class="alert-heading">Well done!</h4>
-            <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+            <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit
+                longer so that you can see how spacing within an alert works with this kind of content.</p>
             <hr>
             <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
-            
-          </div>
+
+        </div>
     </div>
+    <br><hr>
+    <p id="attractions"></p>
     <div class="container ">
+        <h1>Attractions</h1>
         <div class="row">
             <div class="col-sm-4 m-1">
                 <div class="card" style="width: 18rem;">
                     <img src="ken-cheung-KonWFWUaAuk-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                  </div>
+                </div>
             </div>
             <div class="col-sm-4 m-1">
                 <div class="card" style="width: 18rem;">
                     <img src="ken-cheung-KonWFWUaAuk-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                  </div>
+                </div>
             </div>
             <div class="col-sm-3 m-1">
                 <div class="card" style="width: 18rem;">
                     <img src="ken-cheung-KonWFWUaAuk-unsplash.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                  </div>
+                </div>
             </div>
             <div class="col-sm-12 m-1">
                 <div class="card">
                     <div class="card-header">
-                      Featured
+                        Featured
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
     </div>
+    <br><hr>
     <div class="container">
+        <h1 id="EventManegers">Event Managers</h1>
         <table class="table table-hover">
             <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
-              </tr>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
             </thead>
             <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td >Larry the Bird</td>
-                <td >Larry the Bird</td>
-                <td>@twitter</td>
-              </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry the Bird</td>
+                    <td>Larry the Bird</td>
+                    <td>@twitter</td>
+                </tr>
             </tbody>
-          </table>
+        </table>
     </div>
-    <div class="footer">
-            <div class="row p-4">
-                <div class="col-md-12 "> <h4>Working Days : </h4> </div>
-                <div class="col-md-2 footer-days">Monday</div>
-                <div class="col-md-2 footer-days">Monday</div>
-                <div class="col-md-2 footer-days">Monday</div>
-                <div class="col-md-2 footer-days">Monday</div>
-                <div class="col-md-2 footer-days">Monday</div>
-                <div class="col-md-2 footer-days">Monday</div>
-            </div> 
+    <div class="footer" id="contactus">
+        <div class="row p-4">
+            <div class="col-md-12 ">
+                <h4>Working Days : </h4>
+            </div>
+            <div class="col-md-2 footer-days">Monday</div>
+            <div class="col-md-2 footer-days">Tuesday</div>
+            <div class="col-md-2 footer-days">Wednesday</div>
+            <div class="col-md-2 footer-days">Thursday</div>
+            <div class="col-md-2 footer-days">Friday</div>
+            <div class="col-md-2 footer-days">Saturday</div>
+        </div>
+        <div class="row p-3">
+            <div class="col-md-6">
+                <div class="row">
+
+                    <div class="col-md-3">
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Follow Us</h4>
+                    </div>
+                    <div class="col-md-1">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="col-md-1">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="col-md-1">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <div class="col-md-1">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 ">
+                <div class="row">
+                    
+                    <div class="col-md-4">
+                        <h4>Contact Us</h4>
+                    </div>
+                    <div class="col-md-1">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="col-md-1">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>  
+                </div>                
+            </div>
+        </div>
     </div>
 </body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 <script>
-    $(function(){
-        $(document).on('click' , ".save" , function(){
+    $(function () {
+        $(document).on('click', ".save", function () {
             $('.alert').removeClass('d-none');
         });
     });
